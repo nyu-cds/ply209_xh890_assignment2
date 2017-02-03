@@ -1,2 +1,1 @@
-cat areas?.txt | sort -n |uniq > combined_areas.txt
-python rich_pred.py combined_areas.txt
+cat areas?.txt | sort -n |uniq | python rich_pred.py
